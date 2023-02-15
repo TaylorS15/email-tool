@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import { Tooltip } from "react-tippy";
-import emailjs from "@emailjs/browser";
-import { MoonLoader } from "react-spinners";
+import React, { useState } from 'react';
+import { Tooltip } from 'react-tippy';
+import emailjs from '@emailjs/browser';
+import { MoonLoader } from 'react-spinners';
 
 const EmailSender = ({
   selectedEmailPreset,
@@ -33,12 +33,7 @@ const EmailSender = ({
         };
 
         emailjs
-          .send(
-            "service_18kut6i",
-            "template_zy8zi7k",
-            templateParams,
-            "JRIASRf_UAV7BhpQz"
-          )
+          .send('SERVICE_ID', 'TEMPLATE_ID', templateParams, 'PUBLIC_KEY')
           .then((result) => {
             setLoading(false);
             setEmailsSent(true);
@@ -85,7 +80,7 @@ const EmailSender = ({
           </button>
           <MoonLoader
             className=""
-            color={"#30343F"}
+            color={'#30343F'}
             loading={loading}
             size={25}
           />
