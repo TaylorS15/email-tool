@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  background-color: #fafaff;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  font-family: Jost;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@layer components {
+  .header-text {
+    @apply pt-24 text-5xl max-w-sm text-pwhite font-bold;
+  }
+
+  .header-subtext {
+    @apply text-pred text-2xl mt-4 max-w-sm font-bold;
+  }
+}
