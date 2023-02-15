@@ -1,9 +1,10 @@
-# Automated Email Tool and Client Management Tool
+# Automated Email and Client Management Tool
 
 Built to help businesses manage their clients and send automated email promotions to their entire email list with the click of a button.
 
-![client manager](https://imgur.com/GrXGVIl)
-![email tool](https://imgur.com/HARFYZx)
+![Client manager screenshot](https://imgur.com/GrXGVIl)
+
+![Email tool screenshot](https://imgur.com/HARFYZx)
 
 Able to be drag and dropped into any react project with the proper dependencies installed.
 
