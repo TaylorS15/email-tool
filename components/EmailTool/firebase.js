@@ -17,13 +17,13 @@ import {
 } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: 'AIzaSyDhCxlwzgujH_SuuMegz0cOTe4heGObF1A',
-  authDomain: 'quantum-web-development.firebaseapp.com',
-  projectId: 'quantum-web-development',
-  storageBucket: 'quantum-web-development.appspot.com',
-  messagingSenderId: '653799469158',
-  appId: '1:653799469158:web:4df0c90ec6f3c274f6fda7',
-  measurementId: 'G-DTWT6HKZBN',
+  apiKey: 'API_KEY',
+  authDomain: 'AUTH_DOMAIN',
+  projectId: 'PROJECT_ID',
+  storageBucket: 'STORAGE_BUCKET',
+  messagingSenderId: 'MESSAGING_SENDER_ID',
+  appId: 'APP_ID',
+  measurementId: 'MEASUREMENT_ID',
 };
 
 const app = initializeApp(firebaseConfig);
